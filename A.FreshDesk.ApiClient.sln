@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A.FreshDesk.ApiClient", "A.FreshDesk.ApiClient\A.FreshDesk.ApiClient.csproj", "{6B1F596A-AAEB-4725-B250-C156CD74E941}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A.FreshDesk.ApiClient.UnitTest", "A.FreshDesk.ApiClient.UnitTest\A.FreshDesk.ApiClient.UnitTest.csproj", "{CC8EA416-07EC-4422-898F-16F9718C2070}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{5B522441-7BDD-4B0B-B496-706FB8ACD67F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects", "Projects", "{48B736E8-2950-421C-A09C-C65AC3650548}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{A692EEAF-5A39-4E89-9E7A-F5DF83119FC4}"
+	ProjectSection(SolutionItems) = preProject
+		Build\Build.proj = Build\Build.proj
+		Build\Build.targets = Build\Build.targets
+		Build\Init.targets = Build\Init.targets
+		Build\PostBuild.targets = Build\PostBuild.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Release-MsBuild|Any CPU = Release-MsBuild|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B1F596A-AAEB-4725-B250-C156CD74E941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B1F596A-AAEB-4725-B250-C156CD74E941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B1F596A-AAEB-4725-B250-C156CD74E941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B1F596A-AAEB-4725-B250-C156CD74E941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B1F596A-AAEB-4725-B250-C156CD74E941}.Release-MsBuild|Any CPU.ActiveCfg = Release|Any CPU
+		{6B1F596A-AAEB-4725-B250-C156CD74E941}.Release-MsBuild|Any CPU.Build.0 = Release|Any CPU
+		{CC8EA416-07EC-4422-898F-16F9718C2070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC8EA416-07EC-4422-898F-16F9718C2070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC8EA416-07EC-4422-898F-16F9718C2070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC8EA416-07EC-4422-898F-16F9718C2070}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC8EA416-07EC-4422-898F-16F9718C2070}.Release-MsBuild|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5E8105B-AF07-4CC2-BB51-14EB4D0BD227}
+	EndGlobalSection
+EndGlobal

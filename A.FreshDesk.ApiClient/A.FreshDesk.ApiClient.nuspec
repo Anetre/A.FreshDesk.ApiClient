@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Anetre</authors>
+    <owners>Andreas Cider</owners>
+    <licenseUrl>https://www.mozilla.org/en-US/MPL/2.0/</licenseUrl>
+    <projectUrl>https://github.com/anetre/A.FreshDesk.ApiClient</projectUrl>
+    <iconUrl>http://freshdesk.com/files/1813/9885/7672/favicon.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>FreshDesk for .NET</description>
+    <releaseNotes>Relase for C# API v2 to FreshDesk</releaseNotes>
+    <copyright>Copyright 2017 Andreas Cider</copyright>
+    <tags>FreshDesk</tags>
+  </metadata>
+</package>
